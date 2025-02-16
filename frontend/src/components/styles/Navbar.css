@@ -1,0 +1,36 @@
+.wrapNav {
+  background-color: #007FFF
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+}
+
+.navbar-list ul {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.navbar-list ul li{
+  list-style: none;
+}
+
+.navbar-list ul:nth-child(2) li{
+  border: 1px black solid;
+  text-align: center;
+}
+
+.navbar-list ul:nth-child(2) li:nth-child(1) {
+  border-radius: 5px 0px 0px 5px;
+}
+.navbar-list ul:nth-child(2) button:nth-child(2) {
+  border-radius: 0px 5px 5px 0px;
+  background-color: #FF1493;
+  padding-inline: 5px;
+  color: white;
+}
